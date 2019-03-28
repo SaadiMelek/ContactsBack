@@ -12,6 +12,10 @@ import com.ang.ex.entites.Contact;
 
 @SpringBootApplication
 public class AngularExampleBackApplication implements CommandLineRunner{
+	
+	// stop tomcat
+	// netstat -ao | find "8080"
+	// Taskkill /PID  20712 /F
 
 	@Autowired
 	ContactRepository contactRepository;
